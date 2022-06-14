@@ -1,0 +1,27 @@
+.form{
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 20rem;
+    overflow: auto;
+}
+
+.formcontrol{
+    margin-top: 5px;
+    display: block;
+}
+
+.formcontrol p{
+    margin: 0px;
+}
+
+.formcontrol label{
+    display: block;
+}
+
+.invalid label{
+    color: red;
+}
+
+.invalid input{
+    background-color: rgba(250, 83, 83, 0.568);
+}

@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter+Brush&family=M+PLUS+1:wght@100&family=Zen+Antique&display=swap');
+.button {
+    cursor: pointer;
+    font-family: 'Comforter Brush', cursive;
+    font-size: x-large;
+    border: none;
+    background-color: #a01418;
+    color: rgb(251, 255, 6);
+    padding: 0.25rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #cc191f;
+  }
+  
+  .cart {
+    margin-right: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0%;
+    width: 15;
+    height: 2;
+  }
+  
+  .badge {
+    font-size: x-large;
+    background-color: #1e237e;
+    padding: 0.25rem 1rem;
+    border-radius: 25px;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  
+  .button:hover .badge,
+  .button:active .badge {
+    background-color: rgb(45, 35, 160);
+  }
+  
+  .bump {
+    animation: bump 300ms ease-out;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
